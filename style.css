@@ -1,0 +1,35 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-image: url('./background.jpg');
+    margin: 0;
+}
+.botoes{
+    margin: auto;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin: 0 10px 10px 0;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: rgb(124, 214, 214);
+}
+button:hover{
+    background-color: rgb(142, 229, 229);
+}
+#foto{
+    background-color: rgb(154, 189, 245);
+    margin-bottom: 40px;
+}
+#foto:hover{
+    background-color: rgb(172, 199, 244);
+}
+canvas{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    border-radius: 20px;
+}
+
+
